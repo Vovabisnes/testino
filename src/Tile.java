@@ -46,6 +46,7 @@ public class Tile {
         if(value!=0 && value!=9 && value!=20)
         {
         g2.drawString(s, xoffset + (View.Tile-w)/2, yoffset + View.Tile - (View.Tile-h)/2 -2);}
+        System.out.println("big");
     }
 
     public Image getImage(int value)
